@@ -1,0 +1,23 @@
+IZMERA POVRSIN DELOV STAVB - PRVA PWA RAZLICICA
+
+Datoteke: index.html, style.css, app.js, data.js, manifest.webmanifest, icon.svg, sw.js
+
+NAMESTITEV NA ANDROID:
+1. Celotno vsebino mape izmera-pwa objavite na HTTPS spletnem naslovu (npr. GitHub Pages, Netlify ali lasten streznik). Samo odpiranje index.html kot datoteke ne omogoca namestitve PWA ali offline predpomnjenja.
+2. Na Android telefonu/tablici v brskalniku Chrome odprite spletni naslov.
+3. V meniju Chrome izberite »Namesti aplikacijo« oz. »Dodaj na zacetni zaslon«.
+4. Pred uporabo brez povezave aplikacijo enkrat odprite s povezavo, da se nalozijo datoteke.
+
+DELOVANJE:
+- Nova izmera; stevilka dela stavbe, dejanska raba, stevilo etaz in maksimalno stevilo prostorov na etazo.
+- Poimenovanje etaz, vnasanje prostorov s filtriranjem dovoljenih sifr, kvadrature in opisa.
+- Povzetek po etazah, skupna in uporabna povrsina ter osnovna kontrola pravil.
+- Lokalno shranjevanje na napravi, uvoz/izvoz JSON, izvoz CSV za Excel.
+- Tiskanje prek brskalnika (lahko Shrani kot PDF).
+
+OMEJITVE:
+- Ni javno objavljena aplikacija ali APK. Datoteke je treba naloziti na HTTPS gostovanje.
+- Podatki so le lokalno v posameznem brskalniku. Ne sinhronizirajo se med napravami.
+- V prvi verziji ni neposrednega izvoza XLSX, le CSV za Excel.
+- Pred uporabo za uradne elaborate preverite pravila in veljavnost prilozenega sifranta.
+- Preverjanje obveznih in najmanjsih povrsin temelji na prilozenem dokumentu.
